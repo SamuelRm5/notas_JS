@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body class="m-5">
+    <div class="contenedor">
+        <h1 class="text-center mb-5">CalcProme</h1>
+        <p class="emptyIn"></p>
+        <hr>
+        <div class="mb-3">
+            <p class="sentence"> </p>
+            <label for="name1" class="form-label">Nombre </label>
+            <input type="text" class="form-control" id="name1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3 mt-5">
+            <label for="nota1" class="form-label">Nota 1 </label>
+            <input type="number" class="form-control" id="nota1">
+
+            <label for="nota2" class="form-label">Nota 2</label>
+            <input type="number" class="form-control" id="nota2">
+        </div>
+        <div class="mb-3">
+            <label for="color" class="form-label">Color</label>
+            <div class="d-flex gap-4">
+                <input type="color" class="form-control" id="color">
+                <button id="change" class="btn btn-outline-success">Change Background</button>
+                <h3 id="stNameH3"></h3>
+            </div>
+
+        </div>
+
+        <hr>
+
+        
+        <div class="message mt-5">
+        </div>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Seleccione</option>
+            <option value="4">Cuadro de honor</option>
+            <option value="3.5">Gana</option>
+            <option value="2">Recupera</option>
+            <option value="1.9">Pierde</option>
+        </select>
+        <div class="d-flex justify-content-between align-items-baseline">
+            <button id="enviar" class="mt-3 btn btn-outline-primary">Enviar</button>
+            <h2 id="rangeResponse"></h2>
+        </div>
+        
+    </div>
+
+
+        <!--Libraries-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
